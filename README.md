@@ -3,6 +3,10 @@ MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term
 
 This repo is the official Pytorch implementation of MEAformer: "MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term Time Series Forecasting". 
 
+### Comparison with Transformers
+Multivariate Forecasting:
+![image](pics/multi_results.png)
+MEAformer and decomposition-based MEAformer outperform other methods by a large margin.
 ## Detailed Description
 We provide all experiment script files in `./scripts`:
 
@@ -12,7 +16,7 @@ This code is simply built on the code base of DLinear and Autoformer. We appreci
 The implementation of DLinear is from https://github.com/cure-lab/LTSF-Linear
 
 
-The implementation of Autoformer, Informer, Transformer is from https://github.com/thuml/Autoformer
+The implementation of Autoformer, Informer, and Transformer is from https://github.com/thuml/Autoformer
 
 The implementation of FEDformer is from https://github.com/MAZiqing/FEDformer
 
@@ -31,7 +35,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-You can obtain all the nine benchmarks from [Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy) provided in Autoformer. All the datasets are well pre-processed and can be used easily.
+You can obtain all the nine benchmarks from [Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy) provided in Autoformer. All the datasets are well-pre-processed and can be used easily.
 
 ```
 mkdir dataset
@@ -45,7 +49,7 @@ mkdir dataset
 
 For example:
 
-To train the **MEAformer** on **Traffic dataset**, you can use the scipt `scripts/EXP-LongForecasting/MEAformer/traffic.sh`:
+To train the **MEAformer** on **Traffic dataset**, you can use the script `scripts/EXP-LongForecasting/MEAformer/traffic.sh`:
 ```
 sh scripts/EXP-LongForecasting/MEAformer/traffic.sh
 ```
