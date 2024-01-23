@@ -53,7 +53,7 @@ To train the **MEAformer** on **Traffic dataset**, you can use the script `scrip
 ```
 sh scripts/EXP-LongForecasting/MEAformer/traffic.sh
 ```
-It will start to train DLinear by default, the results will be shown in `logs/LongForecasting`. You can specify the name of the model in the script. (Linear, DLinear, NLinear)
+It will start to train MEAformer by default, the results will be shown in `logs/LongForecasting`.
 
 
 
