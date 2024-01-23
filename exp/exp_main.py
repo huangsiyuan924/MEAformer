@@ -30,8 +30,6 @@ class Exp_Main(Exp_Basic):
             'Transformer': Transformer,
             'Informer': Informer,
             'DLinear': DLinear,
-            'MyModel': MyModel,
-            'MyModel1': MyModel1,
             'NLinear': NLinear,
             'Linear': Linear,
             'MEAformer': MEAformer,
