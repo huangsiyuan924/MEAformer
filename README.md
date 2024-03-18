@@ -62,6 +62,23 @@ It will start to train MEAformer by default, the results will be shown in `logs/
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```bibtex
-
+@article{huang2024mea,
+  title={MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term Time Series Forecasting},
+  author={Huang, Siyuan and Liu, Yepeng, Haoyi Cui, Fan Zhang, JinJiang Li, Xiaofeng Zhang, Mingli Zhang, Caiming Zhang},
+  journal={Information Sciences},
+  pages={xx},
+  year={2024},
+  publisher={Elsevier}
+}
+```
+```bibtex
+@article{huang2024fl,
+  title={FL-Net: A multi-scale cross-decomposition network with frequency external attention for long-term time series forecasting},
+  author={Huang, Siyuan and Liu, Yepeng},
+  journal={Knowledge-Based Systems},
+  pages={111473},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
