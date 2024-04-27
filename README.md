@@ -1,5 +1,5 @@
 # MEAformer
-MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term Time Series Forecasting
+[MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term Time Series Forecasting](https://www.sciencedirect.com/science/article/pii/S0020025524005188)
 
 This repo is the official Pytorch implementation of MEAformer: "MEAformer: An all-MLP Transformer with Temporal External Attention for Long-term Time Series Forecasting". 
 
